@@ -10,7 +10,7 @@ A total of **1,465 Amazon products** were analyzed across multiple categories; c
 - **Source**: Web-Scraped Amazon Data
 - **Records**: 1,465 rows
 - **Fields**: 16
-- <a href='https://github.com/chukwuemeliela/Amazon_Review_Analysis_DSA/blob/main/Amazon_Product_Review_DSA.xlsx'>View Excel File<a/>
+- <a href=https://github.com/chukwuemeliela/Amazon_Review_Analysis_DSA/blob/main/Amazon_Product_Review_DSA.xlsx>View Excel File<a/>
 
 ### Business Questions Answered
 1. Average discount by category
@@ -72,7 +72,7 @@ Also, a non-numeric character "/" in the 'Rating' column was replaced with 0 and
 To answer the business questions, various pivot tables were created to group and summarize the dat. These tables allowed for quick aggregation and comparison across product categories, price ranges, discount levels, and customer engagement metrics.
 
 ### Anlaysis Interpretation
-- **Top-Rated Products**: Products in the **Electronics** category dominate the list, with three achieving a perfect **5.0** rating.
+- **Top-Rated Products**: Products in the **Computer & Accessories** category dominate the list, with three achieving a perfect **5.0** rating.
 
 - **Most Reviewed Product**: 'Amazon Basics Flexible HDMI Cable' (Product ID: 'B07KSMBL2H'), **Electronics** Category is the most reviewed product with a total review of **426,973**.
 
@@ -92,6 +92,8 @@ To answer the business questions, various pivot tables were created to group and
 
 - **Category With the Highest Average %Discount**: **Home Improvement** with **57.94%** discount has the highest average % discount.
 
+- **Relationship Between Average Rating and %Discount**: There's a slight downward trend in average rating as discount percentages increase. While the change is not dramatic (4.2 to 4.0), it may indicate that heavily discounted products receive slightly lower customer satisfaction — possibly due to quality perceptions or product performance. This trend suggests that discounting should be used strategically rather than broadly. However, the %Discount Bucket with the highest rate has just 1 product in it.
+
 ## Visualizations
 
 ### Charts
@@ -103,6 +105,18 @@ The dataset was visualized using a variety of charts:
 
 ### Dashoard
 A dashboard was designed in Excel incorporating the charts above, along with slicers and KPI cards for interactivity.
-<a href=h>View Dashboard,<a/> 
+<a href=https://github.com/chukwuemeliela/Amazon_Review_Analysis_DSA/blob/main/Amazon%20PR%20Dashboard.png>View Dashboard,<a/> 
 
 ## Conclusion
+
+The key findings of the analysis reveals that:
+- High-performing products, in terms of both ratings and review volume, are concentrated in specific categories, most notably **Electronics**, highlighting opportunities for focused investment and targeted promotion.
+
+- While discounts are widely used, steep discounts do not correlate with higher ratings, suggesting sellers should be cautious about associating aggressive price cuts with improved customer satisfaction.
+
+- Category like 'Home Improvement' offers the deepest discounts, yet do not lead in customer engagement metrics, indicating a potential misalignment between pricing and perceived value.
+
+- Most customers rate products in the **4.0** range, suggesting a competitive baseline, while less than **25%** of products fall below **1,000** reviews, providing a benchmark for customer engagement.
+
+- Revenue insights show that a small subset of products and categories drive the majority of potential revenue, emphasizing the importance of identifying and supporting top-performing listings.
+
